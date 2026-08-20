@@ -21,6 +21,10 @@ npm run dev
 
 Open `http://127.0.0.1:3000`.
 
+## Contribution Workflow
+
+Propose changes from a short-lived branch and merge them through a pull request.
+
 ## Validate
 
 ```bash
@@ -32,4 +36,3 @@ npm run build
 ## Production Setup
 
 Copy `.env.example` to `.env.local` and configure OpenAI/Supabase values. Production provider mode must fail loudly if required credentials are missing.
-
